@@ -1,0 +1,16 @@
+Index: cmake-build-debug/Testing/Temporary/LastTest.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Start testing: Nov 14 14:29 RTZ 2 (зима)\r\n----------------------------------------------------------\r\nEnd testing: Nov 14 14:29 RTZ 2 (зима)\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cmake-build-debug/Testing/Temporary/LastTest.log b/cmake-build-debug/Testing/Temporary/LastTest.log
+--- a/cmake-build-debug/Testing/Temporary/LastTest.log	(revision 4aeae3e14e51bef6dddd3b456d6ecd6b3c307ebe)
++++ b/cmake-build-debug/Testing/Temporary/LastTest.log	(date 1731584996831)
+@@ -1,3 +1,3 @@
+-Start testing: Nov 14 14:29 RTZ 2 (зима)
++Start testing: Nov 14 14:49 RTZ 2 (зима)
+ ----------------------------------------------------------
+-End testing: Nov 14 14:29 RTZ 2 (зима)
++End testing: Nov 14 14:49 RTZ 2 (зима)
