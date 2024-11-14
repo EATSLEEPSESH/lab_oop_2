@@ -18,7 +18,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6556f6a-67df-41f0-be7f-e9231f10988b" name="Changes" comment="pp" />
+    <list default="true" id="e6556f6a-67df-41f0-be7f-e9231f10988b" name="Changes" comment="Create README.md&#10;&#10;(cherry picked from commit 99ce955ad8d238dc7f842a778f3e8e6c3e5c2ac3)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +36,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="EATSLEEPSESH &lt;parkinglotwitnesses@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -67,7 +72,7 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "lab2",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -96,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731612609661</updated>
-      <workItem from="1731612611587" duration="780000" />
+      <workItem from="1731612611587" duration="1099000" />
     </task>
     <task id="LOCAL-00001" summary="pp">
       <option name="closed" value="true" />
@@ -122,11 +127,24 @@
       <option name="project" value="LOCAL" />
       <updated>1731613250549</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create README.md&#10;&#10;(cherry picked from commit 99ce955ad8d238dc7f842a778f3e8e6c3e5c2ac3)">
+      <option name="closed" value="true" />
+      <created>1731613582447</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731613582447</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -153,6 +171,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pp" />
-    <option name="LAST_COMMIT_MESSAGE" value="pp" />
+    <MESSAGE value="Create README.md&#10;&#10;(cherry picked from commit 99ce955ad8d238dc7f842a778f3e8e6c3e5c2ac3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create README.md&#10;&#10;(cherry picked from commit 99ce955ad8d238dc7f842a778f3e8e6c3e5c2ac3)" />
   </component>
 </project>
