@@ -3,14 +3,22 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
-    <generated />
+    <generated>
+      <config projectName="labs_OOP_2" targetName="gmock" />
+      <config projectName="labs_OOP_2" targetName="gtest" />
+      <config projectName="labs_OOP_2" targetName="twelve_lib" />
+      <config projectName="labs_OOP_2" targetName="tw_tests" />
+      <config projectName="labs_OOP_2" targetName="gmock_main" />
+      <config projectName="labs_OOP_2" targetName="labs_OOP_2" />
+      <config projectName="labs_OOP_2" targetName="gtest_main" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -18,7 +26,275 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6556f6a-67df-41f0-be7f-e9231f10988b" name="Changes" comment="Create README.md&#10;&#10;(cherry picked from commit 99ce955ad8d238dc7f842a778f3e8e6c3e5c2ac3)" />
+    <list default="true" id="e6556f6a-67df-41f0-be7f-e9231f10988b" name="Changes" comment="Create README.md&#10;&#10;(cherry picked from commit 99ce955ad8d238dc7f842a778f3e8e6c3e5c2ac3)">
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/.clang-format" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/BUILD.bazel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/CONTRIBUTORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/WORKSPACE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/ci/linux-presubmit.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/ci/macos-presubmit.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/_data/navigation.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/_layouts/default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/_sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/advanced.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/assets/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/community_created_documentation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/faq.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/gmock_cheat_sheet.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/gmock_cook_book.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/gmock_faq.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/gmock_for_dummies.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/pkgconfig.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/platforms.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/primer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/quickstart-bazel.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/quickstart-cmake.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/reference/actions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/reference/assertions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/reference/matchers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/reference/mocking.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/reference/testing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/docs/samples.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/cmake/gmock.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/cmake/gmock_main.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/docs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/include/gmock/gmock-actions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/include/gmock/gmock-cardinalities.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/include/gmock/gmock-function-mocker.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/include/gmock/gmock-matchers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/include/gmock/gmock-more-actions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/include/gmock/gmock-more-matchers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/include/gmock/gmock-nice-strict.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/include/gmock/gmock-spec-builders.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/include/gmock/gmock.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/include/gmock/internal/custom/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/include/gmock/internal/custom/gmock-generated-actions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/include/gmock/internal/custom/gmock-matchers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/include/gmock/internal/custom/gmock-port.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/include/gmock/internal/gmock-internal-utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/include/gmock/internal/gmock-port.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/include/gmock/internal/gmock-pp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/scripts/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/scripts/fuse_gmock_files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/scripts/generator/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/scripts/generator/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/scripts/generator/README.cppclean" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/scripts/generator/cpp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/scripts/generator/cpp/ast.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/scripts/generator/cpp/gmock_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/scripts/generator/cpp/gmock_class_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/scripts/generator/cpp/keywords.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/scripts/generator/cpp/tokenize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/scripts/generator/cpp/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/scripts/generator/gmock_gen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/src/gmock-all.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/src/gmock-cardinalities.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/src/gmock-internal-utils.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/src/gmock-matchers.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/src/gmock-spec-builders.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/src/gmock.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/src/gmock_main.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/BUILD.bazel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock-actions_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock-cardinalities_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock-function-mocker_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock-internal-utils_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock-matchers_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock-more-actions_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock-nice-strict_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock-port_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock-pp-string_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock-pp_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock-spec-builders_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock_all_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock_ex_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock_leak_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock_leak_test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock_link2_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock_link_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock_link_test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock_output_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock_output_test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock_output_test_golden.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock_stress_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googlemock/test/gmock_test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/cmake/Config.cmake.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/cmake/gtest.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/cmake/gtest_main.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/cmake/internal_utils.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/cmake/libgtest.la.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/docs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/gtest-death-test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/gtest-matchers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/gtest-message.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/gtest-param-test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/gtest-printers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/gtest-spi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/gtest-test-part.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/gtest-typed-test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/gtest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/gtest_pred_impl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/gtest_prod.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/internal/custom/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/internal/custom/gtest-port.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/internal/custom/gtest-printers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/internal/custom/gtest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/internal/gtest-death-test-internal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/internal/gtest-filepath.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/internal/gtest-internal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/internal/gtest-param-util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/internal/gtest-port-arch.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/internal/gtest-port.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/internal/gtest-string.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/include/gtest/internal/gtest-type-util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/samples/prime_tables.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/samples/sample1.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/samples/sample1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/samples/sample10_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/samples/sample1_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/samples/sample2.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/samples/sample2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/samples/sample2_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/samples/sample3-inl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/samples/sample3_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/samples/sample4.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/samples/sample4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/samples/sample4_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/samples/sample5_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/samples/sample6_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/samples/sample7_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/samples/sample8_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/samples/sample9_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/scripts/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/scripts/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/scripts/fuse_gtest_files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/scripts/gen_gtest_pred_impl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/scripts/gtest-config.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/scripts/release_docs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/scripts/run_with_path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/scripts/upload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/scripts/upload_gtest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/src/gtest-all.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/src/gtest-death-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/src/gtest-filepath.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/src/gtest-internal-inl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/src/gtest-matchers.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/src/gtest-port.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/src/gtest-printers.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/src/gtest-test-part.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/src/gtest-typed-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/src/gtest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/src/gtest_main.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/BUILD.bazel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-break-on-failure-unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-break-on-failure-unittest_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-catch-exceptions-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-catch-exceptions-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-color-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-color-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-death-test-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-death-test_ex_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-env-var-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-env-var-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-failfast-unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-failfast-unittest_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-filepath-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-filter-unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-filter-unittest_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-global-environment-unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-global-environment-unittest_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-json-outfiles-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-json-output-unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-list-tests-unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-list-tests-unittest_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-listener-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-message-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-options-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-output-test-golden-lin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-output-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-output-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-param-test-invalid-name1-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-param-test-invalid-name1-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-param-test-invalid-name2-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-param-test-invalid-name2-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-param-test-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-param-test-test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-param-test2-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-port-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-printers-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-setuptestsuite-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-setuptestsuite-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-shuffle-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-shuffle-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-test-part-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-throw-on-failure-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-throw-on-failure-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-uninitialized-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/googletest-uninitialized-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest-typed-test2_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest-typed-test_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest-typed-test_test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest-unittest-api_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_all_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_assert_by_exception_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_environment_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_help_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_help_test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_json_test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_list_output_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_list_output_unittest_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_main_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_no_test_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_pred_impl_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_premature_exit_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_prod_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_repeat_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_skip_check_output_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_skip_environment_check_output_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_skip_in_environment_setup_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_skip_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_sole_header_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_stress_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_test_macro_stack_footprint_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_testbridge_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_testbridge_test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_throw_on_failure_ex_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_xml_outfile1_test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_xml_outfile2_test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_xml_outfiles_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_xml_output_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_xml_output_unittest_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/gtest_xml_test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/production.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/googletest/test/production.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/lib/library.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Google_Tests/twelve_tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/twelve.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twelve.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Google_Tests/lib/googletest/scripts/test/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,9 +332,9 @@
     <option name="majorVersion" value="2023" />
     <option name="minorVersion" value="3.3" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2or0uTuFlD3ffGmTt464qL8cJKU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -66,13 +342,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "C/C++ File.twelve_tests.cpp.executor": "Run",
+    "CMake Application.lab2.executor": "Run",
+    "CMake Application.labs_OOP_2.executor": "Run",
+    "CMake Application.labs_oop_2.executor": "Run",
+    "CMake Application.tw_tests.executor": "Run",
+    "CMake Application.twelve_tests.executor": "Run",
+    "CMake Debug.labs_oop_2.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.advertisement.text.has.clang-format": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/79063/CLionProjects/labs_OOP_2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,16 +367,77 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\79063\CLionProjects\labs_OOP_2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\79063\CLionProjects\labs_OOP_2\Google_Tests" />
+      <recent name="C:\Users\79063\CLionProjects\labs_OOP_2\include" />
       <recent name="C:\Users\79063\CLionProjects\labs_OOP_2\src" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="CMake Application.labs_OOP_2">
+    <configuration name="labs_oop_2" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labs_OOP_2" TARGET_NAME="gmock" CONFIG_NAME="Debug">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labs_OOP_2" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labs_OOP_2" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labs_OOP_2" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="labs_OOP_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labs_OOP_2" TARGET_NAME="labs_OOP_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labs_OOP_2" RUN_TARGET_NAME="labs_OOP_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tw_tests" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labs_OOP_2" TARGET_NAME="tw_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="labs_OOP_2" RUN_TARGET_NAME="tw_tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="twelve_lib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labs_OOP_2" TARGET_NAME="twelve_lib" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="twelve_tests.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="labs_oop_2" TARGET_NAME="twelve_tests.cpp" CONFIG_NAME="twelve_tests.cpp">
+      <option name="sourceFile" value="Google_Tests\twelve_tests.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="C/C++ File.twelve_tests.cpp" />
+      <item itemvalue="CMake Application.tw_tests" />
+      <item itemvalue="CMake Application.gmock" />
+      <item itemvalue="CMake Application.gmock_main" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
+      <item itemvalue="CMake Application.labs_OOP_2" />
+      <item itemvalue="CMake Application.twelve_lib" />
+      <item itemvalue="CMake Debug.labs_oop_2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.twelve_tests.cpp" />
+        <item itemvalue="CMake Debug.labs_oop_2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -101,7 +447,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731612609661</updated>
-      <workItem from="1731612611587" duration="1099000" />
+      <workItem from="1731612611587" duration="1202000" />
+      <workItem from="1731613828500" duration="2717000" />
+      <workItem from="1731616630973" duration="2443000" />
+      <workItem from="1731623143878" duration="1033000" />
+      <workItem from="1731652731801" duration="1035000" />
     </task>
     <task id="LOCAL-00001" summary="pp">
       <option name="closed" value="true" />
@@ -135,7 +485,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731613582447</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Create README.md&#10;&#10;(cherry picked from commit 99ce955ad8d238dc7f842a778f3e8e6c3e5c2ac3)">
+      <option name="closed" value="true" />
+      <created>1731613780601</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731613780601</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
